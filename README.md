@@ -6,7 +6,7 @@ Aplicação backend desenvolvida para teste de admissão da Wirecard Brasil.
 
 
 ### Ferramentas usadas:
-[Node.js](https://nodejs.org/en/)
+[![made-with-nodejs](https://img.shields.io/badge/Made%20with-Node-1f425f.svg)](https://nodejs.org/en/)
 [Express](https://www.npmjs.com/package/express)
 [Nodemon](https://www.npmjs.com/package/nodemon)
 [Mongoose](https://www.npmjs.com/package/mongoose)
@@ -14,7 +14,7 @@ Aplicação backend desenvolvida para teste de admissão da Wirecard Brasil.
 [Body-parser](https://www.npmjs.com/package/body-parser)
 [Cors](https://www.npmjs.com/package/cors)
 
-Esta aplicação usa os seguintes métodos <b>CRUD: <i>GET</i> & <i>POST</i></b> 
+Esta aplicação usa os seguintes métodos **CRUD: *GET* & *POST*** 
 
 ## Instalação:
 
@@ -40,7 +40,7 @@ npm start
 Rota raíz da aplicação:
 > http://localhost:3000/
 
-Rota utilizada para fazer <b>GET</b> e <b>POST</b> dos dados:
+Rota utilizada para fazer **GET** e **POST** dos dados:
 > http://localhost:3000/payment
 
 Rota utilizada para verificar o status dos pagamentos:
@@ -87,3 +87,5 @@ Card:
  - Card CVV (Number behind the card)
 
 ```
+
+# License
