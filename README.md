@@ -92,6 +92,18 @@ Card:
 
 ```
 
+## Erros possíveis no POST:
+
+> Email inválido
+![Email inválido](/img-checkout/invalid-email.png)
+> CPF inválido
+> Método de pagamento inválido
+> Bandeira de cartão inválida
+> Número de cartão inválido
+> Data de expiração inválida
+> CVV inválido
+
+
 #### Informações:
 
 * Autora: Loreny Ielpo
