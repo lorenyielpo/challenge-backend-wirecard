@@ -7,12 +7,13 @@ Aplicação backend desenvolvida para teste de admissão da Wirecard Brasil.
 
 ### Ferramentas usadas:
 [![made-with-nodejs](https://img.shields.io/badge/Made%20with-Node-1f425f.svg)](https://nodejs.org/en/)
-[Express](https://www.npmjs.com/package/express)
+[![Express version shields.io](https://img.shields.io/express/v/ansicolortags.svg)](https://www.npmjs.com/package/express)
 [Nodemon](https://www.npmjs.com/package/nodemon)
 [Mongoose](https://www.npmjs.com/package/mongoose)
 [MongoDB](https://www.mongodb.com/)
 [Body-parser](https://www.npmjs.com/package/body-parser)
 [Cors](https://www.npmjs.com/package/cors)
+[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
 
 Esta aplicação usa os seguintes métodos **CRUD: *GET* & *POST*** 
 
