@@ -42,10 +42,8 @@ server.post('/payment', (req, res) => {
     .catch(error => {
         if (error.name === 'ValidationError') {
             res.sendStatus(400);
-        } else if(error.name === 'Error'){
-            res.send(error.message).satus(500);
-        } else {
-            res.sendStatus(500)
+        } else {  
+            res.sendStatus(500);
         }
     })
 })
