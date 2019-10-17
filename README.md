@@ -18,7 +18,7 @@ Aplicação backend desenvolvida para teste de admissão da Wirecard Brasil. Ess
 - [Cors](https://www.npmjs.com/package/cors) - *v. ^2.8.5*
 
 
-Esta aplicação usa os seguintes métodos **CRUD: *GET* & *POST*** 
+> Esta aplicação usa os seguintes métodos **CRUD: *GET* & *POST*** 
 
 ## Instalação:
 
@@ -94,5 +94,5 @@ Card:
 
 #### Informações:
 
-Autora: Loreny Ielpo
-E-mail: lorenyielpo@gmail.com
+* Autora: Loreny Ielpo
+* E-mail: lorenyielpo@gmail.com
