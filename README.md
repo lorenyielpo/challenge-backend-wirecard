@@ -1,19 +1,22 @@
 # REST API - Node.js
 
+[![made-with-nodejs](https://img.shields.io/badge/Made%20with-Node-1f425f.svg)](https://nodejs.org/en/)
+[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
+
 > REST API - PAYMENT WIRECARD BRASIL
 
-Aplicação backend desenvolvida para teste de admissão da Wirecard Brasil. 
+Aplicação backend desenvolvida para teste de admissão da Wirecard Brasil. Essa aplicação simula uma pequena parte da aplicação de pagamentos desenvolvidas pela Wirecard.
 
 
 ### Ferramentas usadas:
-[![made-with-nodejs](https://img.shields.io/badge/Made%20with-Node-1f425f.svg)](https://nodejs.org/en/)
-[![Express version shields.io](https://img.shields.io/express/v/ansicolortags.svg)](https://www.npmjs.com/package/express)
-[Nodemon](https://www.npmjs.com/package/nodemon)
-[Mongoose](https://www.npmjs.com/package/mongoose)
-[MongoDB](https://www.mongodb.com/)
-[Body-parser](https://www.npmjs.com/package/body-parser)
-[Cors](https://www.npmjs.com/package/cors)
-[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
+
+- [Express](https://www.npmjs.com/package/express) - *v. ^4.17.1*
+- [Nodemon](https://www.npmjs.com/package/nodemon) - *v. ^1.19.4*
+- [Mongoose](https://www.npmjs.com/package/mongoose) - *v. ^5.7.5*
+- [MongoDB](https://www.mongodb.com/) - *v. 4.0* 
+- [Body-parser](https://www.npmjs.com/package/body-parser) - *v. ^1.19.0*
+- [Cors](https://www.npmjs.com/package/cors) - *v. ^2.8.5*
+
 
 Esta aplicação usa os seguintes métodos **CRUD: *GET* & *POST*** 
 
@@ -89,4 +92,7 @@ Card:
 
 ```
 
-# License
+#### Informações:
+
+Autora: Loreny Ielpo
+E-mail: lorenyielpo@gmail.com
