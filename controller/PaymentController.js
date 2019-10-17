@@ -32,15 +32,6 @@ const add = async (dataPayment) => {
 
     if (dataPayment.payment.type === "boleto") {
 
-        if (dataPayment.payment.card.holder_name !== undefined || dataPayment.payment.card.number !== undefined || dataPayment.payment.card.expiration_date !== undefined || dataPayment.payment.card.cvv !== undefined) {
-            
-            dataPayment.payment.card.holder_name = undefined;
-            dataPayment.payment.card.number = undefined;
-            dataPayment.payment.card.expiration_date = undefined;
-            dataPayment.payment.card.cvv = undefined;
-        }
-
-
         dataPayment.status = 'Processing';
         const client = new paymentModel(dataPayment);
         client.save();
@@ -68,7 +59,6 @@ const add = async (dataPayment) => {
             throw new Error('Invalid card');
         }
 
-        dataPayment.payment.type = type;
         dataPayment.status = 'Successful';
         const client = new paymentModel(dataPayment);
         client.save();
