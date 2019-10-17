@@ -95,13 +95,38 @@ Card:
 ## Erros possíveis no POST:
 
 > Email inválido
+
+Retorna status 500, exemplo de erro:
 ![Email inválido](/img-checkout/invalid-email.png)
+
 > CPF inválido
+
+Retorna status 500, exemplo de erro:
+![CPF inválido](/img-checkout/invalid-cpf.png)
+
 > Método de pagamento inválido
+
+Retorna status 500, exemplo de erro:
+![Método de pagamento inválido](/img-checkout/invalid-method-payment.png)
+
 > Bandeira de cartão inválida
+
+Retorna status 500, exemplo de erro:
+![Bandeira de cartão inválida](/img-checkout/invalid-brand.png)
+
 > Número de cartão inválido
+
+Retorna status 500, exemplo de erro:
+![Número de cartão inválido](/img-checkout/invalid-number-card.png)
+
 > Data de expiração inválida
+
+Retorna status 500, exemplo de erro:
+![Data inválida](/img-checkout/invalid-date.png)
+
 > CVV inválido
+Retorna status 500, exemplo de erro:
+![CVV inválido](/img-checkout/invalid-cvv.png)
 
 
 #### Informações:
